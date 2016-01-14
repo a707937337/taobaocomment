@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+rate.tmall.com	FALSE	/	FALSE		JSESSIONID	q+UD82UbXD+RbyPB
+rate.tmall.com	FALSE	/	FALSE		tmallrateweb0	kFRcK6prBN8Qi7eFzZgJGNNWbqHF2gI6lFxMTnWu3gTLCyBFZo4bZR4XZOUnaVuGoKS3MwLfAMkh78EInD6a8d0YEdU8JpbnPwrX%2FAL8LDFipV%2FR8C7%2BfI8%2BkhSgjje%2FMwJ2%2F2sJ6j1mISCCXFjNl5CESf%2FUzGJPTn9DPe2JBIi4opoOR8ihWZlyLLeEGzgo83baCcGaOMfXHlNQcHBHeikE%2FLRt211Upn5z67k8VYMdI2kbe7pUJP9zhN2ldsqontzj0dX09JiQVRUG07lOInqyDkxDeYfZp2kR1C%2FvdGQH43Jvz8DfDBUq9F9bJKL11xAtYMGfTtXGqcJu8zGz%2Bg%3D%3D
