@@ -1,0 +1,9 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.taobao.com	TRUE	/	FALSE		cookie2	1ccfba59d5cbd06c1c01882dcc65f127
+.taobao.com	TRUE	/	FALSE	1460458083	t	14feef1c970d4968efac8ce154e23072
+.taobao.com	TRUE	/	FALSE		uc1	cookie14=UoWyjCAxeWu6tQ%3D%3D
+rate.tmall.com	FALSE	/	FALSE		JSESSIONID	khk6fjE$6Ey8SoDR
+rate.tmall.com	FALSE	/	FALSE		tmallrateweb0	hr7o92JHabQyNVPPM8mpVrauZm59aOxzB5aEbv8%2FAZyBGi6uUVqHXWhEH2FseXvPsG6fnTn3Aolo7evieFjtyEo7Av4AzCkEaqLVOc0vjVsBWxuVQBzAmA3YpJnrUyd%2BJmOwMPZRQdVf3qoRtR9YcK8F6AYzWm%2F%2Bx2bEhEKTYDbHmScM1PR0UBejdy5QfHOKVJj8gT%2Fi%2Bq4FiUcGqw18tZWJxuzaM8iQyZ1kYYOCcXDVEGVV6t9OU1hMgrSINADrku3zwUgdTStGcAvxcq6fR80PPSlMJyQGz54w3FYnvxNhXenjjDwaq7TtUTfLKcj5iHQ2tD59Ac9G0fjBRuM%2BKQ%3D%3D
