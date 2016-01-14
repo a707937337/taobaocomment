@@ -361,9 +361,15 @@ if __name__ == '__main__':
 
 	# 存储所有评论变量
 	returncomment=[['最短网址','类型','商品标题','页码','用户昵称','用户等级','评论','评论时间','追评','几天后追评','商家回复']]
-
+	print('温馨提示：每个商品的评论在一张Excel中。')
+	jinhan=input('批量抓取网址评论请按1:')
+	jinhan1=input('每个商品默认抓取全部评论请按1:')
 	for s in range(0,len(temp)):
-		ok=input('抓取下一个网址：不抓按数字: 1')
+		if jinhan=='1':
+			ok='2'
+			pass
+		else:
+			ok=input('抓取下一个网址：不抓按数字: 1')
 		if ok=='1':
 			break
 		else:
@@ -422,19 +428,25 @@ if __name__ == '__main__':
 			# 淘宝链接
 			if who==1:
 				try:
-					k=int(input('抓取几页评论（默认全部)：'))
-					if k<0:
-						print('出错，默认一直抓')
+					if jinhan1=='1':
 						raise
+					else:
+						k=int(input('抓取几页评论（默认全部)：'))
+						if k<0:
+							print('出错，默认一直抓')
+							raise
 				except:
-					k=1000
+					k=200
 				returncomment=taobao(returncomment,k)
 			else:
 				try:
-					k=int(input('抓取几页评论（默认99)：'))
-					if k>99 and k<0:
-						print('出错，默认99页')
+					if jinhan1=='1':
 						raise
+					else:
+						k=int(input('抓取几页评论（默认99)：'))
+						if k>99 and k<0:
+							print('出错，默认99页')
+							raise
 				except:
 					k=99
 				returncomment=tmall(returncomment,k)
