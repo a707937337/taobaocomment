@@ -24,7 +24,7 @@ def password():
 		print('欢迎你：'+user)
 		return
 	try:
-		mysql = pymysql.connect(host="192.168.1.177", user="dataman", passwd="123456",db='qingmu', charset="utf8")
+		mysql = pymysql.connect(host="115.28.95.129", user="root", passwd="6833066",db='hunter', charset="utf8")
 		cur = mysql.cursor()
 		isuser="SELECT * FROM mtaobao where user='{0}' and pwd='{1}'".format(user,pwd)
 		cur.execute(isuser)
@@ -419,7 +419,7 @@ if __name__ == '__main__':
 				urlroot="https://rate.taobao.com/feedRateList.htm?auctionNumId="+id+"&userNumId="+userid+"&showContent=1"+"&currentPageNum="
 			elif '天猫' in title:
 				who=2
-				urlroot="https://rate.tmall.com/list_detail_rate.htm?itemId="+id+"&sellerId="+userid+"&content=1&order=3"+"&currentPageNum="
+				urlroot="https://rate.tmall.com/list_detail_rate.htm?itemId="+id+"&sellerId="+userid+"&content=1&order=3"+"&currentPage="
 			else:
 				# 找不到出错
 				raise
