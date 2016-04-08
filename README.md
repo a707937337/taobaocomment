@@ -1,3 +1,5 @@
+由于Github 打包的exe某些文件上传被.gitignore了，所以欢迎从这里下载工具：http://pan.baidu.com/s/1bpHPjDt
+
 # taobaocomment
 
 # Introduction
